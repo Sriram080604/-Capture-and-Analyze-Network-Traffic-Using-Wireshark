@@ -1,0 +1,23 @@
+ Wireshark Network Traffic Analysis Report
+Date of Capture: [9-6-25]
+Interface Used: Wi-Fi
+Capture Duration: 1 minute
+File Exported: wireshark.pcap
+
+ Protocols Identified:
+Protocol	Description	Packet Count	Use Case
+TCP	Transmission Control Protocol	150+	Establishes connections for reliable data transmission
+DNS	Domain Name System	30+	Resolves domain names to IP addresses
+HTTP	HyperText Transfer Protocol	50+	Used for browsing web content
+
+Findings:
+The most frequent protocol was TCP, indicating active communication between client and server.
+
+DNS queries were visible when accessing websites.
+
+HTTP packets showed GET and POST requests, useful in web traffic analysis.
+
+ Outcome Achieved:
+Understood the basics of packet capture and filtering.
+
+Gained hands-on experience with protocol identification and analysis.
